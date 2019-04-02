@@ -14561,6 +14561,46 @@ a.btn-icon-only
     box-shadow: none, 0 0 0 0 rgba(228, 64, 95, .5);
 }
 
+.btn-whatsapp
+{
+    color: #fff;
+    border-color: #25D366;
+    background-color: #25D366;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+}
+.btn-whatsapp:hover
+{
+    color: #fff;
+    border-color: #25D366;
+    background-color: #25D366;
+}
+.btn-whatsapp:focus,
+.btn-whatsapp.focus
+{
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08), 0 0 0 0 rgba(46, 228, 85, 0.5);
+}
+.btn-whatsapp.disabled,
+.btn-whatsapp:disabled
+{
+    color: #fff;
+    border-color: #25D366;
+    background-color: #25D366;
+}
+.btn-whatsapp:not(:disabled):not(.disabled):active,
+.btn-whatsapp:not(:disabled):not(.disabled).active,
+.show > .btn-whatsapp.dropdown-toggle
+{
+    color: #fff;
+    border-color: #25D366;
+    background-color: #25D366;
+}
+.btn-whatsapp:not(:disabled):not(.disabled):active:focus,
+.btn-whatsapp:not(:disabled):not(.disabled).active:focus,
+.show > .btn-whatsapp.dropdown-toggle:focus
+{
+    box-shadow: none, 0 0 0 0 rgba(76, 228, 117, 0.5);
+}
+
 .btn-pinterest
 {
     color: #fff;
